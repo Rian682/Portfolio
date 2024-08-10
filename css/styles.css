@@ -27,22 +27,24 @@ h1 {
 
 .top-cloud {
   position: absolute;
-  left: 1000px;
-  bottom: 480px;
+  left: 73%; /* Center horizontally */
+  bottom: 69%; /* Adjust as needed */
+  transform: translateX(-50%); /* Center the cloud perfectly */
 }
 
 .mid-cloud {
   position: absolute;
-  top: 340px;
-  left: 750px;
+  top: 54%;
+  left: 54%;
+  transform: translate(-50%, -50%);
 }
 
 .bot-cloud {
   position: absolute;
-  right: 1000px;
-  top: 200px;
+  right: 73%;
+  top: 28%;
+  transform: translateX(50%);
 }
-
 
 
 
