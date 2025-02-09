@@ -45,22 +45,47 @@ h1 {
   top: 28%;
   transform: translateX(50%);
 }
-@media (max-width: 768px) {
-  #top-cloud {
-    left: 10%;
-    top: 5%;
+
+@media (max-width: 768px) { /* For tablets or smaller devices */
+  .top-cloud {
+    left: 60%; /* Adjust horizontally */
+    bottom: 50%; /* Adjust vertically */
+    transform: translateX(-50%);
   }
 
-  #mid-cloud {
-    left: 50%;
-    top: 40%;
+  .mid-cloud {
+    top: 45%; /* Adjust vertically */
+    left: 50%; /* Adjust horizontally */
+    transform: translate(-50%, -50%);
   }
 
-  #bot-cloud {
-    left: 5%;
-    top: 70%;
+  .bot-cloud {
+    right: 60%; /* Adjust horizontally */
+    top: 20%; /* Adjust vertically */
+    transform: translateX(50%);
   }
 }
+
+@media (max-width: 480px) { /* For phones or smaller screens */
+  .top-cloud {
+    left: 50%;
+    bottom: 40%;
+    transform: translateX(-50%);
+  }
+
+  .mid-cloud {
+    top: 35%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
+
+  .bot-cloud {
+    right: 50%;
+    top: 15%;
+    transform: translateX(50%);
+  }
+}
+
 
 
 
