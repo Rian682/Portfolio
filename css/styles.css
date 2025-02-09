@@ -252,13 +252,6 @@ h2 {
 
 
 
-.top-container-sum {
-  position: relative;
-  padding-top: 100px;
-  background-color: #E8F0F1;
-  height: 560px;
-  overflow: hidden; /* Prevent content from spilling out */
-}
 
 .form-container {
     position: absolute;
