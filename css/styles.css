@@ -239,7 +239,7 @@ hr {
 
 
 .mountain {
-  margin: 265px 0px 0px
+  margin: 265px 0px 0px;
 }
 h2 {
   color: #15965A;
@@ -253,17 +253,18 @@ h2 {
 
 
 .form-container {
-    position: absolute; /* Keeps the form inside the top-container */
-    top: 50%; /* Moves it to the vertical center */
-    left: 50%; /* Moves it to the horizontal center */
-    transform: translate(-50%, -50%); /* Centers it perfectly */
-    width: 90%; /* Responsive width for smaller screens */
-    max-width: 400px; /* Restricts width on larger screens */
-    background-color: rgba(255, 255, 255, 0.5); /* Transparent background */
-    padding: 20px;
-    border-radius: 8px;
-    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    position: absolute; /* Position the form relative to the nearest positioned ancestor (top-container) */
+    top: 50%; /* Vertical center within top-container */
+    left: 50%; /* Horizontal center within top-container */
+    transform: translate(-50%, -50%); /* Center the form perfectly */
+    width: 80%; /* Responsive width for smaller screens */
+    max-width: 400px; /* Limit the maximum width on larger screens */
+    background-color: rgba(255, 255, 255, 0.5); /* Semi-transparent background */
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Adds shadow */
+    padding: 40px; /* Internal spacing */
+    border-radius: 8px; /* Smooth rounded corners */
 }
+
 .input-container {
     position: relative;
     margin: 20px 0 40px;
