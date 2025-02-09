@@ -252,10 +252,11 @@ h2 {
 
 
 
-.top_container_sum {
-  position: relative; /* Necessary for child absolute positioning */
-  width: 100%; /* Ensure it spans the full width of the screen */
-  height: 100vh; /* Ensure it takes the full height of the viewport */
+.top-container-sum {
+  position: relative;
+  padding-top: 100px;
+  background-color: #E8F0F1;
+  height: 560px;
   overflow: hidden; /* Prevent content from spilling out */
 }
 
