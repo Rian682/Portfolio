@@ -252,17 +252,24 @@ h2 {
 
 
 
+.top_container_sum {
+  position: relative; /* Necessary for child absolute positioning */
+  width: 100%; /* Ensure it spans the full width of the screen */
+  height: 100vh; /* Ensure it takes the full height of the viewport */
+  overflow: hidden; /* Prevent content from spilling out */
+}
+
 .form-container {
-    position: absolute; /* Position the form relative to the nearest positioned ancestor (top-container) */
-    top: 50%; /* Vertical center within top-container */
-    left: 50%; /* Horizontal center within top-container */
-    transform: translate(-50%, -50%); /* Center the form perfectly */
-    width: 80%; /* Responsive width for smaller screens */
-    max-width: 400px; /* Limit the maximum width on larger screens */
-    background-color: rgba(255, 255, 255, 0.5); /* Semi-transparent background */
-    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Adds shadow */
-    padding: 40px; /* Internal spacing */
-    border-radius: 8px; /* Smooth rounded corners */
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 90%; /* Take most of the width on smaller screens */
+    max-width: 400px; /* Prevent the form from becoming too wide */
+    background-color: rgba(255, 255, 255, 0.5);
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    padding: 40px;
+    border-radius: 8px;
 }
 
 .input-container {
