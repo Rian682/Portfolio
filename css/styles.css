@@ -45,7 +45,22 @@ h1 {
   top: 28%;
   transform: translateX(50%);
 }
+@media (max-width: 768px) {
+  #top-cloud {
+    left: 10%;
+    top: 5%;
+  }
 
+  #mid-cloud {
+    left: 50%;
+    top: 40%;
+  }
+
+  #bot-cloud {
+    left: 5%;
+    top: 70%;
+  }
+}
 
 
 
