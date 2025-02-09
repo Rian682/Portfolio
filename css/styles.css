@@ -4,6 +4,7 @@ body {
 }
 
 .top-container {
+  position: relative;
   padding-top: 100px;
   background-color: #E8F0F1;
   height: 560px;
